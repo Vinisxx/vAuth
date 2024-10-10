@@ -1,0 +1,95 @@
+.body {
+
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    display: flex;
+}
+
+.banner {
+
+    min-width: 41.3194444444vw;
+    max-width: 41.3194444444vw;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    background-color: transparent;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.banner img {
+
+    min-width: 106.38655462184875%;
+    max-width: 106.38655462184875%;
+    min-height: auto;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+.form {
+
+    min-width: 58.6805555556vw;
+    max-width: 58.6805555556vw;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    border-radius: 20px 0 0 20px;
+
+    background-color: var(--white);
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+
+    margin-top: 90px;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.inputContainer {
+
+    min-width:  41.66vw;
+    max-width: 41.66vw;
+    min-height: 45.51vh;
+    max-height: 45.51vh;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputContainer div {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.inputContainer div label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inputContainer input:hover {
+
+    border: 2px solid var(--yellow);
+}

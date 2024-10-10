@@ -1,0 +1,44 @@
+.input{
+
+    color: var(--gray);
+
+    min-width: 41.66vw;
+    max-width: 41.66vw;
+    min-height: 50px;
+    max-height: 50px;
+
+    background-color: var(--ligth-blue);
+
+    border: none;
+
+    padding-left: 15px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    border: 2px solid transparent;
+
+    transition: 0.3s ease-in-out;
+}
+
+
+.submit {
+    min-width: 75%;
+    max-width: 75%;
+    min-height: 50px;
+    max-height: 50px;
+
+    background-color: var(--yellow);
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: var(--black);
+}

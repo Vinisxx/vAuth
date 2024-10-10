@@ -7,12 +7,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --white: rgba(230, 243, 255, 0.75);
+  --ligth-blue: rgba(209, 222, 234, 0.75);
+  --white: rgba(255, 255, 255);
   --black: rgba(0, 0, 0);
-  --yelow: rgba(249, 237, 50);
+  --yellow: rgba(249, 237, 50);
   --medium-yellow: rgb(242, 211, 53);
   --dark-yellow: rgba(217, 189, 50);
-  --gray: rgba(176, 186, 195, 0.4);
+  --gray: rgb(129, 129, 129);
   --medium-gray: rgba(124, 131, 138);
   --dark-gray: rgba(0, 0, 0, 0.5);
 
@@ -23,7 +24,10 @@
 
   padding: 0;
   margin: 0;
+
   box-sizing: border-box;
+
+  outline: none;
 }
 
 body {
@@ -34,4 +38,6 @@ body {
   max-height: 100vh;
 
   overflow: hidden;
+
+  background-color: var(--ligth-blue);
 }
